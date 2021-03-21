@@ -15,9 +15,7 @@ public class ConfigManager {
         yamlConfiguration.set(path, value);
     }
 
-    public static String get(String path){
-        return yamlConfiguration.getString(path);
-    }
+    public static Object get(String path){ return yamlConfiguration.get(path); }
 
     public static void save(){
         try{

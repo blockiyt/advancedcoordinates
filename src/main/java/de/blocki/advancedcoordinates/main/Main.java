@@ -23,8 +23,9 @@ public final class Main extends JavaPlugin {
 
     private void setDefaultConfig(){
         if(ConfigManager.get("prefix") == null){ ConfigManager.set("prefix", "&7[&6AC&7]"); }
+        if(ConfigManager.get("round-location") == null){ ConfigManager.set("round-location", true); }
         ConfigManager.save();
-        prefix = ConfigManager.get("prefix").replace("&", "§") + " ";
+        prefix = ConfigManager.get("prefix").toString().replace("&", "§") + " ";
     }
 
     private void setupMessagesConfig(){
