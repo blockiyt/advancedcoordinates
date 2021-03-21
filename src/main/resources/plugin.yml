@@ -1,0 +1,7 @@
+name: AdvancedCoordinates
+version: @version@
+main: de.blocki.advancedcoordinates.main.Main
+api-version: 1.16
+commands:
+  coords:
+    description: display cordss
