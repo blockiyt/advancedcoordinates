@@ -19,6 +19,11 @@ Download the Latest Version of the Plugin [here](https://github.com/blockiyt/adv
 
 Restart or Reload the Server an you are done!
 
+### Commands
+- /coords:advancedcoords.coords -> displays the executer the location of himself
+- /coords send <player>:advancedcoords.coords.send -> sends the location of the executor to an other player
+- /coords broadcast:advancedcoords.coords.broadcast -> brodcast the location of the player to all other players on the Server
+
 ### Todos
 
  - add messages to config
